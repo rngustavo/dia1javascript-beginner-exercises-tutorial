@@ -36,3 +36,5 @@ function addAllFamilyLuckyNumbers(anArray){
 
 //Do not make changes below:
 console.log(addAllFamilyLuckyNumbers(family.members)); 
+
+
