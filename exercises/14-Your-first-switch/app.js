@@ -1,11 +1,29 @@
 function getColor(selection)
 {
-	switch(selection){
-		// Add more options here
+	 var hay = true;
+
+   // console.log(selection);
+
+	switch (selection){
+        // Add more options here
+        case 'red':
+            hay= true;
+            console.log(selection);
+            break;
+        case 'green':
+            hay= true;
+          
+            break;
+        case 'blue':
+           
+            hay= true;
+            break;
 	    default:
 	    	return false;  //returns false because the user picked an unavailable color
-	    break;               
-	}
+	    break;              
+    }
+    return hay;
+
 }
 
 var colorname = prompt('What color do you want?');
